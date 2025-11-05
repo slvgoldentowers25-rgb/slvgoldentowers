@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html, body {
+  overflow-x: clip;   /* or overflow-x: hidden; if clip isn’t supported */
+}
