@@ -66,7 +66,6 @@ export default function FloorPlansSection() {
             <div className="bg-[#144A47]/60 rounded-md px-4 py-4">
               <p className="text-gray-300 text-sm mb-2">LAYOUTS</p>
               <p className="text-sm leading-relaxed text-gray-100">
-                2 BHK LAYOUTS : 55 UNITS (1040 TO 1170 HIGHEST SQFT), <br />
                 3 BHK LAYOUTS : 165 UNITS (1350 TO 1600 HIGHEST SQFT), <br />
                 4 BHK LAYOUTS : 22 UNITS (MAX 2000 SQFT)
               </p>
@@ -87,8 +86,8 @@ export default function FloorPlansSection() {
 
             <div className="grid grid-cols-2 gap-3">
               <div className="bg-[#144A47]/60 rounded-md px-4 py-3">
-                <p className="text-gray-300 text-sm">YEAR BUILT</p>
-                <p className="text-lg font-semibold text-white">NOV 2024</p>
+                <p className="text-gray-300 text-sm">Possession On</p>
+                <p className="text-lg font-semibold text-white">Dec 2027</p>
               </div>
               <div className="bg-[#144A47]/60 rounded-md px-4 py-3">
                 <p className="text-gray-300 text-sm">PRICE</p>
@@ -145,7 +144,7 @@ export default function FloorPlansSection() {
         <div className="bg-[#144A47]/60 rounded-xl p-5 flex flex-col items-center text-center">
           <FiMaximize2 className="text-[#B57E55] text-2xl mb-2" />
           <p className="font-medium text-white">Size</p>
-          <p className="text-sm text-gray-300">Starts from 1040 sqft</p>
+          <p className="text-sm text-gray-300">Starts from 1350 sqft</p>
         </div>
         <div className="bg-[#144A47]/60 rounded-xl p-5 flex flex-col items-center text-center">
           <LuBedDouble className="text-[#B57E55] text-2xl mb-2" />
@@ -160,7 +159,7 @@ export default function FloorPlansSection() {
         <div className="bg-[#144A47]/60 rounded-xl p-5 flex flex-col items-center text-center">
           <LuCar className="text-[#B57E55] text-2xl mb-2" />
           <p className="font-medium text-white">Parking Slots</p>
-          <p className="text-sm text-gray-300">5</p>
+          <p className="text-sm text-gray-300">1</p>
         </div>
       </div>
     </section>
